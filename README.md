@@ -44,13 +44,13 @@ You can then use the three functions to process the user's action:
 
 ```swift
 // User rated
-self.rate()
+Judex.shared.rate()
 
 // User asked for reminding later (next release)
-self.remindLater()
+Judex.shared.remindLater()
 
 // User declined 
-self.decline()
+Judex.shared.decline()
 ```
 
 ### Manual
